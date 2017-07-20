@@ -1,9 +1,9 @@
 package foo;
 
 public class Student {
-	private int age;
+	private long age;
 	private String name;
-	public int getAge() {
+	public long getAge() {
 		return age;
 	}
 	public void setAge(int age) {
@@ -15,7 +15,7 @@ public class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Student(int age, String name) {
+	public Student(long age, String name) {
 		super();
 		this.age = age;
 		this.name = name;
