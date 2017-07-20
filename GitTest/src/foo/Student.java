@@ -14,7 +14,7 @@ public class Student {
 	}
 	public void setName(String name) {
 		this.name = name;
-	}
+	} 
 	public Student(long age, String name) {
 		super();
 		this.age = age;
